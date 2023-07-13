@@ -6,13 +6,14 @@ const Head = styled.h1`
 
 text-transform: uppercase;
 color: white;
+letter-spacing: 9px
 
 
 `
 function Header() {
   return (
-    <Head>
-        we are launching soon
+    <Head style={{ marginTop: '6rem' }}>
+        we're launching soon
     </Head>
   )
 }

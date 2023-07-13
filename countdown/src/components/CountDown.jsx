@@ -41,10 +41,10 @@ return () => clearInterval(interval)
 
   return (
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr' , gap: '1rem' }}>
-          <div style={{}}> <Card><span style={{  }}>{timeRemaining.days} </span></Card> <span style={{ color: 'hsl(237, 18%, 59%)', textTransform: 'capitalize' }}>days </span>  </div>
-          <div style={{}}> <Card><span style={{  }}> {timeRemaining.hours}</span></Card> <span style={{ color: 'hsl(237, 18%, 59%)', textTransform: 'capitalize' }}> hours</span> </div>
-          <div style={{}}><Card> <span style={{  }}>{timeRemaining.minutes} </span></Card> <span style={{ color: 'hsl(237, 18%, 59%)', textTransform: 'capitalize' }}>minutes </span> </div>
-          <div style={{}}> <Card><span style={{  }}> {timeRemaining.seconds} </span></Card> <span style={{ color: 'hsl(237, 18%, 59%)', textTransform: 'capitalize' }}> seconds</span>  </div>
+          <div style={{}}> <Card style={{ marginBottom: '1rem' }}><span style={{  }}>{timeRemaining.days} </span></Card> <span style={{ color: 'hsl(237, 18%, 59%)', textTransform: 'uppercase'  }}>days </span>  </div>
+          <div style={{}}> <Card style={{ marginBottom: '1rem' }}><span style={{  }}> {timeRemaining.hours}</span></Card> <span style={{ color: 'hsl(237, 18%, 59%)', textTransform: 'uppercase'}}> hours</span> </div>
+          <div style={{}}><Card style={{ marginBottom: '1rem' }}> <span style={{  }}>{timeRemaining.minutes} </span></Card> <span style={{ color: 'hsl(237, 18%, 59%)', textTransform: 'uppercase' }}>minutes </span> </div>
+          <div style={{}}> <Card style={{ marginBottom: '1rem' }}><span style={{  }}> {timeRemaining.seconds} </span></Card> <span style={{ color: 'hsl(237, 18%, 59%)', textTransform: 'uppercase' }}> seconds</span>  </div>
         </div>
   );
 };

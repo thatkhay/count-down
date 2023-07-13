@@ -13,3 +13,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer{
+  background-image: url(./images/pattern-hills.svg);
+  width: 100%;
+  height: 8rem;
+}
+img:active{
+  background-color: hsl(345, 95%, 68%);
+ 
+}
